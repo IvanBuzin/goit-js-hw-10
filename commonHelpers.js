@@ -1,2 +1,2 @@
-import"./assets/modulepreload-polyfill-ec808ebb.js";flatpickr(element,{});
+import"./assets/modulepreload-polyfill-ec808ebb.js";import{f as r}from"./assets/vendor-992cd48f.js";r(element,{});input[type="text"];onClose();function t(o){const n=Math.floor(o/864e5),e=Math.floor(o%864e5/36e5),s=Math.floor(o%864e5%36e5/6e4),c=Math.floor(o%864e5%36e5%6e4/1e3);return{days:n,hours:e,minutes:s,seconds:c}}console.log(t(2e3));console.log(t(14e4));console.log(t(2414e4));iziToast.show({title:"Hey",message:"What would you like to add?"});
 //# sourceMappingURL=commonHelpers.js.map
