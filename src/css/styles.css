@@ -120,3 +120,113 @@ button:disabled {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+/*-----------Snackbar-----------*/
+form.form {
+  width: 1440px;
+  height: 496px;
+  background: #fff;
+}
+
+label {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 68px;
+  margin-left: 156px;
+
+  color: #2e2f42;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.delay {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.radio {
+  width: 32px;
+  height: 32px;
+}
+
+#text {
+  color: #2e2f42;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+legend {
+  color: #2e2f42;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+fieldset {
+  width: 360px;
+  height: 64px;
+  flex-shrink: 0;
+  padding: 0;
+  margin-top: 28px;
+
+  stroke-width: 1px;
+  stroke: #808080;
+  margin-left: 156px;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+.state {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: row;
+  width: 104px;
+  color: #2e2f42;
+  margin: 0px;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.snackbar {
+  display: flex;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  margin-top: 24px;
+  margin-left: 156px;
+
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
