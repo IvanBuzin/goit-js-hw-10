@@ -152,7 +152,12 @@ label {
   border-radius: 4px;
   border: 1px solid #808080;
 }
-
+.delay:hover {
+  border: 1px solid #000;
+}
+.delay:active {
+  border: 1px solid #4e75ff;
+}
 .radio {
   width: 32px;
   height: 32px;
@@ -195,7 +200,10 @@ fieldset {
   border-radius: 4px;
   border: 1px solid #808080;
 }
-
+fieldset:hover,
+fieldset:active {
+  border: 1px solid #000;
+}
 .state {
   display: flex;
   align-items: center;
@@ -220,11 +228,10 @@ fieldset {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 8px;
-  background: #4e75ff;
   margin-top: 24px;
   margin-left: 156px;
-
+  border-radius: 8px;
+  background: #4e75ff;
   color: #fff;
 
   font-family: Montserrat;
@@ -233,4 +240,7 @@ fieldset {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+}
+.snackbar:hover {
+  background: #6c8cff;
 }
