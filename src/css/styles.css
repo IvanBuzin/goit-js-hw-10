@@ -235,10 +235,10 @@ fieldset:active {
   margin-top: 24px;
   margin-left: 156px;
   border-radius: 8px;
-  border-top-right-radius: #4e75ff;
-  border-bottom-left-radius: #4e75ff;
-  border-bottom-right-radius: #4e75ff;
-  border-bottom-right-radius: #4e75ff;
+  border-right-color: #4e75ff;
+  border-left-color: #4e75ff;
+  border-top-color: #4e75ff;
+  border-bottom-color: #4e75ff;
   background: #4e75ff;
   color: #fff;
 
@@ -251,8 +251,8 @@ fieldset:active {
 }
 .snackbar:hover {
   background: #6c8cff;
-  border-top-right-radius: #6c8cff;
-  border-bottom-left-radius: #6c8cff;
-  border-bottom-right-radius: #6c8cff;
-  border-bottom-right-radius: #6c8cff;
+  border-top-color: #6c8cff;
+  border-bottom-color: #6c8cff;
+  border-right-color: #6c8cff;
+  border-left-color: #6c8cff;
 }
