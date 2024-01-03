@@ -5,10 +5,12 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>snackbar</title>
+  <title>Snackbar</title>
+  
   <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers2.js"></script>
-  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-ec808ebb.js">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-3fb1c32b.js">
   <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-651d7991.js">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-fd702023.css">
   <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-80d0dc0f.css">
 </head>
 
@@ -20,22 +22,22 @@
   <form class="form">
     <label>
       Delay (ms)
-      <input type="number" name="delay" required />
+      <input type="number" name="delay" required class="delay" />
     </label>
 
     <fieldset>
       <legend>State</legend>
-      <label>
-        <input type="radio" name="state" value="fulfilled" required />
+      <label class="state">
+        <input type="radio" name="state" value="fulfilled" required class="radio" />
         Fulfilled
       </label>
-      <label>
-        <input type="radio" name="state" value="rejected" required />
+      <label class="state">
+        <input type="radio" name="state" value="rejected" required class="radio" />
         Rejected
       </label>
     </fieldset>
 
-    <button type="submit">Create notification</button>
+    <button type="submit" class="snackbar">Create notification</button>
   </form>
 
   
